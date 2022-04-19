@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<head>
+<!--  Importacion de CSS Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--  Importacion de JS Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/estilos.css">
+  <!--   material icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--   Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<!--  Importar Stylos css personalizados-->
+  <link rel="stylesheet" href="estilos.css">
+<!--  Comienzo Sitio Web-->
+  <title>INACAP</title>
+</head>
+<body>
+  <!-- ========================== -->
+  <!-- Barra de Navegación-->
+  <!-- ========================== -->
+  <div class="container">
+    <nav class="navbar navbar-expand-xl navbar-light bg-dark">
+      <a class="navbar-brand logo" href="#">
+        <img src="img/logo-blanco.png"class="d-inline pl-2" alt="" width="175" height="78">
+      </a>
+      <div class="navbar-collapse" id="navbarNav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item li-top"><a class="menu-top"
+            href="https://portales.inacap.cl/sobre-nosotros/cft/index">Centro de Formación Técnica</a></li>
+            <li class="nav-item li-top"><a class="menu-top"
+              href="https://portales.inacap.cl/sobre-nosotros/ip/index">Instituto Profesional</a></li>
+              <li class="nav-item li-top"><a class="menu-top"
+                href="https://portales.inacap.cl/sobre-nosotros/universidad/index">Universidad</a></li>
+                <li class="nav-item li-top"><a class="menu-top" href="https://www.inacap.cl/tportalvp/alumnos">Estudiantes</a>
+                </li>
+                <li class="nav-item li-top"><a class="menu-top" href="https://portales.inacap.cl/exalumnos/index">Exalumnos</a>
+                </li>
+                <li class="nav-item li-top"><a class="menu-top" href="https://portales.inacap.cl/docentes/">Docentes</a></li>
+                <li class="nav-item li-top"><a class="menu-top"
+                  href="https://siga.inacap.cl/Inacap.VerificacionCertificados/Default.aspx">Verificación de Certificados</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+  <!-- ========================== -->
+  <!-- Carrusel -->
+  <!-- ========================== -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/Sede-la-granja.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/elige-mantenerte-actualizado.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/exalumno-destacado-ceremonia.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <!-- ========================== -->
+  <!-- Medidas COVID -->
+  <!-- ========================== -->
+  <div id="cnt_medidas_covid">Medidas COVID</div>
+
+   <!-- ========================== -->
+            <!-- Noticias -->
+  <!-- ========================== -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="cnt_noticias">Noticias</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/EXALUMNOS-400-X-300.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Leonel Barraza recibe reconcomiendo como Exalumno Destacado 2021 en Sede Iquique</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/rally-portada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Inacapinos del Biobío participan activamente en primera fecha del Rally Mobil 2022</p>  
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="img/1-logo-inacap-800x600.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Homenaje a Carlos del Río Undurraga, ex Director Ejecutivo de INACAP</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================== -->
+  <!-- Educación Contínua-->
+  <!-- ========================== -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="cnt_titulo_educacion_continua">Educacion Continua</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+      <div class="col">
+        Column
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

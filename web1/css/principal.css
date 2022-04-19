@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff ;
+}
+#cnt_principal {
+    background-color: #ccb8b8;
+    padding: 20px;
+    text-align: center;
+}
+#cnt_imagen {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ad8c8c;
+    text-align: center;
+}
+#cnt_hipervinculo {
+    margin-top: 20px;
+    background-color: #e6dada;
+    text-align: center;
+}
+#cnt_main {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #C8D2F4;
+    padding: 10px;
+}
