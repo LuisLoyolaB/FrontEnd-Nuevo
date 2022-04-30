@@ -1,12 +1,14 @@
 window.onload = desplegarVideo()
+
+// window.onload = menu()
 // Este codigo esta horrible xdddd 
 // falta mejorarlo
+// sorry profe lo intente xd
 function desplegarVideo(){
     const videoSrc = document.getElementById("video-1").setAttribute("src","https://www.youtube.com/embed/Ycs7gq_fRcA")
     const videoSrc2 = document.getElementById("video-1").getAttribute("src")
     document.querySelector(".video-play-btn").addEventListener("click",function(){
-            // event.preventDefault()
-        //    alert("hola")
+            
             if (document.querySelector(".video-popup").classList.contains("open")){
                 document.querySelector(".video-popup").classList.remove("open");
                 // document.getElementById("video-1").setAttribute("src","");
@@ -26,13 +28,16 @@ function desplegarVideo(){
    })     
     
 }
-$(document).ready(function(){
-    $(window).on("scroll",function(){
-        if($(this).scrollTop() >90){
-            $(".navbar").addClass("navbar-shrink");        
-        }
-        else{
-            $("navbar").removeClass("navbar-shrink");
-        }
-    })
-})
+function menu(){
+    //Obtenemos el navbar
+    const navbar = document.querySelector(".navbar")   
+    // Obtenemos la posicion del navbar    
+    if (document.documentElement.scrollTop >= 59){
+        navbar.classList.add("nav-pequeno")
+    }else{
+        navbar.classList.remove("nav-pequeno")
+    }
+}
+
+// Escucha de Eventos
+window.addEventListener("scroll", function(){menu()})
