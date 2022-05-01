@@ -31,7 +31,7 @@ function desplegarVideo(){
 function menu(){
     //Obtenemos el navbar
     const navbar = document.querySelector(".navbar")   
-    // Obtenemos la posicion del navbar    
+    // si el scrolltop es mayor entonces el menu cambia de clase para darle mejores estilos  
     if (document.documentElement.scrollTop >= 59){
         navbar.classList.add("nav-pequeno")
     }else{
@@ -40,4 +40,6 @@ function menu(){
 }
 
 // Escucha de Eventos
+
+// Evento para cambiar estilos al navbar
 window.addEventListener("scroll", function(){menu()})
