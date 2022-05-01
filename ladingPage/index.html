@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-  <title>Landing Page</title>
+  <title>Impele Inc | Creamos software para dispositivos inteligentes</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
   <header class="">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Aplicacion Mobil</a>
+        <a class="navbar-brand" href="#">Impele <span id="logo-amarillo">Inc</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,19 +32,13 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Caracteristicas</a>
+              <a class="nav-link" href="#servicios">Caracteristicas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Capturas</a>
-            </li>
+              <a class="nav-link" href="#funfacts">Nosotros</a>
+            </li>            
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Precios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -52,8 +46,8 @@
     </nav>
   </header>
   <!-- FINAL DEL NAVBAR -->
-
-  <!-- COMIENZO DEL CONTENIDO INICIAL -->
+  <!-- =================================================  -->
+  <!-- PRIMER SECCION DEL SITIO -->
   <section class="inicio d-flex align-items-center" id="inicio">
     <div class="effect-wrap">
       <i class="fa-strong fa-plus effect effect-1 "></i>
@@ -82,13 +76,14 @@
         <div class="col-md-5 text-center">
           <div class="img-inicio">
             <div class="circulo"></div>
-            <img src="/img/app-screenshots/1.png" alt="Vista Previa" />
+            <img src="img/1.png" alt="Vista Previa" />
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- FIN DEL CONTENIDO INCIAL -->
+  <!-- FIN DE LA PRIMERA SECCION -->
+  <!-- =================================================  -->
   <!-- INICIO DEL VIDEO POP UP -->
   <div class="video-popup">
     <div class="video-popup-interno">
@@ -101,6 +96,7 @@
     </div>
   </div>
   <!-- FIN DEL VIDEO POP UP -->
+  <!-- =================================================  -->
   <!-- INICIO SECCION DE CARACTERISTICAS -->
   <section class="caracteristicas seccion-padding" id="servicios">
     <div class="container">
@@ -112,85 +108,253 @@
           </div>
         </div>
       </div>
-      <div class="row ">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
-                  <!-- PRIMERA TARJETA -->
-                  <div class="col-sm-12 col-lg-4">
-                    <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                      <div class="card-body text-center">
-                        <div class="icon">
-                          <i class="fa-solid fa-file-lines"></i>
-                        </div>
-                        <h3 class="card-title">Planificación</h3>
-                        <p class="card-text">¡Cuéntanos lo que tienes en mente! Nos encargamos de estudiar y
-                          planificar tu idea,
-                          te asesoramos y nos
-                          adaptamos a lo que necesitas.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- FINAL PRIMERA TARJETA -->
-                  <!-- SEGUNDA TARJETA -->
-                  <div class="col-sm-12 col-lg-4 ">
-                    <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                      <div class="card-body text-center">
-                        <div class="icon">
-                          <i class="fa-solid fa-code"></i>
-                        </div>
-                        <h3 class="card-title">Codigo Clean</h3>
-                        <p class="card-text">Te ofrecemos al personal más cualificado: directores técnicos, team
-                          leaders,
-                          analistas, perfiles senior,
-                          semi-senior, junior y diseñadores.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- FINAL SEGUNDA TARJETA -->
-                  <!-- TERCERA TARJETA -->
-                  <div class="col-lg-4 ">
-                    <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
-                      <div class="card-body text-center">
-                        <div class="icon">
-                          <i class="fa-solid fa-mobile-screen-button"></i>
-                        </div>
-                        <h3 class="card-title">Desarrollo</h3>
-                        <p class="card-text">Desarrollamos aplicaciones móviles adaptadas a cada cliente, al sector y a
-                          las
-                          necesidades del proyecto.
-                          Te asesoramos en todo el proceso.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- FINAL TERCERA TARJETA -->
-                </div>
 
+      <!-- COMIENZO DEL CARRUSEL -->
+      <div class="container-fluid ">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button> -->
               </div>
-            </div>
-            <!-- <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..."> -->
+              <div class="carousel-inner">
+                <!-- PRIMER CARRUSEL -->
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div class="row">
+                      <!-- PRIMERA TARJETA -->
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-file-lines"></i>
+                            </div>
+                            <h3 class="card-title">Planificación</h3>
+                            <p class="card-text">¡Cuéntanos lo que tienes en mente! Nos encargamos de estudiar y
+                              planificar tu idea,
+                              te asesoramos y nos
+                              adaptamos a lo que necesitas.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL PRIMERA TARJETA -->
+                      <!-- SEGUNDA TARJETA -->
+                      <div class="col-sm-12 col-lg-4 ">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-code"></i>
+                            </div>
+                            <h3 class="card-title">Codigo Clean</h3>
+                            <p class="card-text">Te ofrecemos al personal más cualificado: directores técnicos, team
+                              leaders,
+                              analistas, perfiles senior,
+                              semi-senior, junior y diseñadores.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL SEGUNDA TARJETA -->
+                      <!-- TERCERA TARJETA -->
+                      <div class="col-lg-4 ">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <h3 class="card-title">Desarrollo</h3>
+                            <p class="card-text">Desarrollamos aplicaciones móviles adaptadas a cada cliente, al sector
+                              y a
+                              las
+                              necesidades del proyecto.
+                              Te asesoramos en todo el proceso.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL TERCERA TARJETA -->
+                    </div>
+
+                  </div>
+                </div>
+                <!-- SEGUNDO CARRUSEL -->
+                <div class="carousel-item">
+                  <div class="container">
+                    <div class="row">
+                      <!-- PRIMERA TARJETA -->
+                      <div class="col-sm-12 col-lg-4">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-hand-fist"></i>
+                            </div>
+                            <h3 class="card-title">Impele Poder</h3>
+                            <p class="card-text">Usamos estándares ágiles como SCRUM, ITIL y PMI, para asegurar la
+                              calidad y entrega a tiempo de los desarrollos para aplicaciones móviles.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL PRIMERA TARJETA -->
+                      <!-- SEGUNDA TARJETA -->
+                      <div class="col-sm-12 col-lg-4 ">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-computer"></i>
+                            </div>
+                            <h3 class="card-title">Especialistas en Desarrollo de Apps</h3>
+                            <p class="card-text">Nos dedicamos exclusivamente al Desarrollo de Apps para dispositivos
+                              inteligentes</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL SEGUNDA TARJETA -->
+                      <!-- TERCERA TARJETA -->
+                      <div class="col-lg-4 ">
+                        <div class="card border-0 shadow p-3 mb-5 bg-body rounded">
+                          <div class="card-body text-center">
+                            <div class="icon">
+                              <i class="fa-solid fa-angle-double-down"></i>
+                            </div>
+                            <h3 class="card-title">Líderes</h3>
+                            <p class="card-text">Los clientes nos avalan. Nuestro mejor desempeño se demuestra bajo los
+                              requerimientos mas desafiantes.
+                              <br>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- FINAL TERCERA TARJETA -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- FINAL DEL CARRUSEL -->
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
     </div>
   </section>
   <!-- FINAL SECCION DE CARACTERISTICAS -->
+  <!-- ================================================= -->
+  <!-- INICIO DE FACTS  -->
+  <section class="fun-facts section-padding" id="funfacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-5 d-flex align-content-center justify-content-center">
+          <div class="fun-imagen">
+            <img src="img/2.png" alt="Somos los mejores" srcset="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <div class="fun-facts card border-0">
+            <div class="card-body">
+              <div class="seccion-titulo">
+                <h2>resultados <span>increíbles</span></h2>
+              </div>
+              <p class="fun-txt card-text">Creamos nuestros propios diseños UI|UX, lo que nos permite desarrollar
+                aplicaciones intuitivas y de gran valor para nuestros clientes y sus usuarios. </p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="fun-fact-elemento style-1">
+                    <h3>56400</h3>
+                    <span>Descargas</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-elemento style-2">
+                    <h3>320</h3>
+                    <span>Likes</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-elemento style-3">
+                    <h3>500</h3>
+                    <span>5 estrellas en rankings </span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="fun-fact-elemento style-4">
+                    <h3>290</h3>
+                    <span>Premios</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TERMINO DE FACTS -->
+  <!-- =================================================  -->
+  <!-- INICIO DE CONTACTO -->
+  <section class="contacto seccion-padding" id="contacto">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="seccion-titulo">
+            <h2>estemos en <span>contacto</span></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5">
+          <div class="info-contacto">
+            <h3>Sabes donde encontrarnos</h3>
+            <div class="info contacto item">
+              <i class="fa-solid fa-location-arrow"></i>
+              <h3>Direccion de la Empresa</h3>
+              <p>Los madrigales #0001, Colombia</p>
+            </div>
+            <div class="info contacto item">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>Tambien nos gustan los emails</h3>
+              <p>contacto@impeleinc.com</p>
+            </div>
+            <div class="info contacto item">
+              <i class="fa-solid fa-phone"></i>
+              <h3>Una llamada</h3>
+              <p>+569 98789098</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 offset-lg-1">
+          <div class="border-0 card">
+            <div class=" card-body">
+              <form novalidate="" class="">
+                <div class="mb-4"><label class="form-label" for="c-nombre">Nombre Completo</label><input required="" id="c-nombre"
+                    class="form-control form-control-lg" />
+                  <div class="invalid-feedback">Por favor ingresa tu Nombre</div>
+                </div>
+                <div class="mb-4"><label class="form-label" for="c-email">Tu Correo</label><input type="email"
+                    required="" id="c-email" class="form-control form-control-lg" />
+                  <div class="invalid-feedback">Por favor ingresa tu Email</div>
+                </div>
+                <div class="mb-4"><label class="form-label" for="c-mensaje">Mensaje</label><textarea rows="4"
+                    placeholder="Dejanos tu mensaje" required="" id="c-mensaje"
+                    class="form-control form-control-lg"></textarea>
+                  <div class="invalid-feedback">Por favor dejanos tu mensaje</div>
+                </div>
+                <div class="pt-2"><button type="submit" class="w-sm-auto w-100 btn btn-primary btn-lg">Enviar</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+
+  </section>
+  <!-- TERMINO DE CONTACTO -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

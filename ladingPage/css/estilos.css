@@ -24,6 +24,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
@@ -31,7 +33,9 @@ body {
   padding: 0;
   outline: none !important;
 }
-
+#logo-amarillo{
+  color:var(--color-2)
+}
 img {
   width: 100%;
   vertical-align: middle;
@@ -151,6 +155,19 @@ ul {
 /*====================
 = Estilos del NavBar =
 ======================*/
+.navbar-toggler{
+  background-color: var(--color-2)
+}
+.custom-toggler.navbar-toggler {
+  border-color: lightgreen;
+}
+.navbar-toggler span{
+  color:#fff;
+}
+.navbar-toggler-icon button{
+  color:#fff;
+  background-color: #fff;
+}
 .navbar {
   background-color: transparent;
   padding: 20px 0;
@@ -357,7 +374,83 @@ ul {
 }
 
 /* SECCION CARACTERISTICAS  */
-.icon i{}
+.card .card-body{
+  position: relative;
+  z-index:1;
+  overflow: hidden;
+}
+.card .card-body::before,
+.card .card-body::after{
+  content: '';
+  position: absolute;
+  z-index:-1;
+  border-radius:50%;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.card .card-body::before{
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-1);
+  left:10px;
+  top:40%;
+
+}
+.card .card-body:hover::before{
+  left:10px;
+  opacity:1;
+
+}
+.card .card-body::after{
+  height: 30px;
+  width: 30px;
+  background-color: var(--color-2);
+  right:10px;
+  top:80%;
+
+}
+.card .card-body:hover::after{
+  opacity: 1;
+  right: -15;
+}
+.card .card-body .icon{
+  height:60px;
+  width: 60px;
+  margin: 0 auto 30px;
+  text-align: center;
+  font-size: 30px;
+  color: var(--main-color );
+  position: relative;
+  z-index:1;
+  transition: all 0.5s ease;
+
+}
+.card .card-body .icon::before {
+  content:'';
+  position:absolute;
+  left:100%;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color:var(--main-color);
+  transition: all 0.5s ease;
+  z-index: -1;
+  opacity: 0;
+}
+.card .card-body:hover .icon{
+  color: #fff;
+  font-size: 20px;
+}
+.card .card-body:hover .icon::before{
+  left:0;
+  border-radius: 50%;
+  opacity:1;
+}
+.card .card-body .icon i{
+  line-height:60px;
+}
+
+
 .card-title{
   font-family: "Poppins", sans-serif;
   font-size:22px;
@@ -366,10 +459,104 @@ ul {
   font-weight:500;
 
 }
-.card-body p {
+.card .card-body p {
   font-size:16px;
   line-height:26px;
   font-weight:300;
   color: var(--black-400);
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 15px;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
+}
+.carousel-indicators {
+  margin-bottom: -25px;
+}
+.carousel-indicators button[data-bs-target] {
+  height: 1px;
+  width: 24px; 
+  background-color: var(--main-color);
+  /* display: inline-block; */
+  margin: 0 4px;
+   border-radius: 5px;
+  padding:2px; 
+   /* margin-top:20px;  */
+   /* border-radius: 40%; */
+
+
+}
+/* ================================================
+func facts (entiendase como cosas graciosas)
+================================================ */
+.fun-facts{
+  background-color: var(--black-100);
+}
+.fun-facts .seccion-titulo{
+  margin-bottom: 20px;
+
+}
+.fun-facts .seccion-titulo h2{
+  text-align: left;
+}
+.fun-imagen img{
+  max-width: 250px;
+  width: 100%;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 32px;
+  animation: bounceTop_01 3s ease infinite;
+}
+.fun-txt .card-text p{
+  font-size:16px;
+  line-height: 26px;
+  color: var(--black-400);
+  margin: 0 0 15px;
+  font-weight: 300; 
+}
+.fun-fact-elemento {
+  padding: 30px;
+  text-align: center;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.fun-fact-elemento h3{
+  font-size: 40px;
+  font-weight: 700;
+  color:#fff;
+  margin:0 0 5px;
+
+}
+.fun-fact-elemento span{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  display: block;
+  color: #fff;
+
+}
+
+.style-1{
+background-color: var(--color-1);
+}
+.style-2{
+  background-color:var(--color-2);
+}
+.style-3{
+  background-color: var(--color-3);
+}
+.style-4{
+  background-color: var(--main-color);
+}
+
+/* estilos para la seccion de contacto */
+
+.btn-primary{
+  background-color: var(--main-color);
+  border: none;
+}
+.btn-primary:hover{
+  background-color: var(--color-2);
 }
