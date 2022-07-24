@@ -1,0 +1,345 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "ACADIAN"
+    },
+    {
+      "id": "2",
+      "name": "ACURA"
+    },
+    {
+      "id": "3",
+      "name": "ALFA ROMEO"
+    },
+    {
+      "id": "4",
+      "name": "ASIA MOTORS"
+    },
+
+    {
+      "id": "5",
+      "name": "AUDI"
+    },
+    {
+      "id": "143",
+      "name": "BAIC"
+    },
+    {
+      "id": "127",
+      "name": "BAW"
+    },
+    {
+      "id": "6",
+      "name": "BMW"
+    },
+    {
+      "id": "94",
+
+      "name": "BRILLIANCE"
+    },
+    {
+      "id": "7",
+      "name": "BYD"
+    },
+    {
+      "id": "64",
+
+      "name": "CADILLAC"
+    },
+    {
+      "id": "8",
+      "name": "CHANGAN"
+    },
+    {
+      "id": "108",
+      "name": "CHANGHE"
+    },
+    {
+      "id": "9",
+      "name": "CHERY"
+    },
+    {
+      "id": "10",
+
+      "name": "CHEVROLET"
+    },
+    {
+      "id": "11",
+
+      "name": "CHRYSLER"
+    },
+    {
+      "id": "12",
+      "name": "CITROEN"
+    },
+    {
+      "id": "155",
+      "name": "CUPRA"
+    },
+    {
+      "id": "13",
+      "name": "DAEWOO"
+    },
+    {
+      "id": "14",
+
+      "name": "DAIHATSU"
+    },
+    {
+      "id": "149",
+      "name": "DFSK"
+    },
+    {
+      "id": "15",
+      "name": "DODGE"
+    },
+    {
+      "id": "148",
+
+      "name": "DONGFENG/DFM"
+    },
+    {
+      "id": "146",
+      "name": "DS"
+    },
+    {
+      "id": "120",
+      "name": "FAW"
+    },
+    {
+      "id": "16",
+      "name": "FIAT"
+    },
+    {
+      "id": "17",
+      "name": "FORD"
+    },
+    {
+      "id": "141",
+      "name": "FOTON"
+    },
+    {
+      "id": "139",
+
+      "name": "GAC MOTOR"
+    },
+    {
+      "id": "18",
+      "name": "GEELY"
+    },
+    {
+      "id": "19",
+
+      "name": "GREAT WALL"
+    },
+    {
+      "id": "20",
+      "name": "HAFEI"
+    },
+    {
+      "id": "55",
+      "name": "HAIMA"
+    },
+    {
+      "id": "142",
+      "name": "HAVAL"
+    },
+    {
+      "id": "21",
+      "name": "HONDA"
+    },
+    {
+      "id": "118",
+      "name": "HUMMER"
+    },
+    {
+      "id": "22",
+      "name": "HYUNDAI"
+    },
+    {
+      "id": "111",
+
+      "name": "INFINITI"
+    },
+    {
+      "id": "69",
+      "name": "ISUZU"
+    },
+    {
+      "id": "154",
+      "name": "IVECO"
+    },
+    {
+      "id": "23",
+      "name": "JAC"
+    },
+    {
+      "id": "24",
+      "name": "JAGUAR"
+    },
+    {
+      "id": "25",
+      "name": "JEEP"
+    },
+    {
+      "id": "150",
+      "name": "JETOUR"
+    },
+    {
+      "id": "87",
+      "name": "JINBEI"
+    },
+    {
+      "id": "114",
+      "name": "JMC"
+    },
+    {
+      "id": "26",
+      "name": "KIA"
+    },
+    {
+      "id": "27",
+      "name": "LANCIA"
+    },
+    {
+      "id": "28",
+
+      "name": "LAND ROVER"
+    },
+    {
+      "id": "53",
+      "name": "LEXUS"
+    },
+    {
+      "id": "29",
+      "name": "LIFAN"
+    },
+    {
+      "id": "30",
+
+      "name": "MAHINDRA"
+    },
+    {
+      "id": "145",
+      "name": "MAXUS"
+    },
+    {
+      "id": "31",
+      "name": "MAZDA"
+    },
+    {
+      "id": "32",
+
+      "name": "MERCEDES BENZ"
+    },
+    {
+      "id": "54",
+      "name": "MG"
+    },
+    {
+      "id": "33",
+      "name": "MINI"
+    },
+    {
+      "id": "34",
+
+      "name": "MITSUBISHI"
+    },
+    {
+      "id": "35",
+      "name": "NISSAN"
+    },
+    {
+      "id": "36",
+      "name": "OPEL"
+    },
+    {
+      "id": "37",
+      "name": "PEUGEOT"
+    },
+    {
+      "id": "73",
+
+      "name": "PLYMOUTH"
+    },
+    {
+      "id": "38",
+      "name": "PORSCHE"
+    },
+    {
+      "id": "39",
+      "name": "PROTON"
+    },
+    {
+      "id": "147",
+      "name": "RAM"
+    },
+    {
+      "id": "40",
+      "name": "RENAULT"
+    },
+    {
+      "id": "41",
+      "name": "ROVER"
+    },
+    {
+      "id": "42",
+      "name": "SAMSUNG"
+    },
+    {
+      "id": "43",
+      "name": "SEAT"
+    },
+    {
+      "id": "44",
+      "name": "SKODA"
+    },
+    {
+      "id": "138",
+      "name": "SMA"
+    },
+    {
+      "id": "45",
+
+      "name": "SSANGYONG"
+    },
+    {
+      "id": "46",
+      "name": "SUBARU"
+    },
+    {
+      "id": "47",
+      "name": "SUZUKI"
+    },
+    {
+      "id": "56",
+      "name": "TATA"
+    },
+    {
+      "id": "48",
+      "name": "TOYOTA"
+    },
+    {
+      "id": "49",
+
+      "name": "VOLKSWAGEN"
+    },
+    {
+      "id": "50",
+      "name": "VOLVO"
+    },
+    {
+      "id": "144",
+      "name": "ZNA"
+    },
+    {
+      "id": "51",
+      "name": "ZOTYE"
+    },
+    {
+      "id": "52",
+      "name": "ZX AUTO"
+    }
+  ]
+}
